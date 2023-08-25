@@ -1,6 +1,6 @@
 {
   "name": "email-enricher",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A free, offline alternative to Clearbit for enriching emails. Determine if an email likely belongs to a Fortune 1000 company.",
   "main": "dist/index.js",
   "scripts": {
