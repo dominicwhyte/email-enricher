@@ -6,9 +6,5 @@ export const companyFromEmail = (email: string): CompanyType | null => {
 
   const companyName = rootDomainParts?.[0]; // This gets the first part of the root domain (e.g., "google" from ["google", "com"])
 
-  console.log("companyName: ", companyName);
-
   return COMPANIES_BY_DOMAIN[companyName] || null;
 };
-
-console.log(companyFromEmail("drew@dropbox.com"));
